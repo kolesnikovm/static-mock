@@ -1,0 +1,8 @@
+- handler: /api/v1
+  responseFile: ./resources/response.json
+- handler: /api/v2
+  responseFile: ./resources/response.xml
+  responseTime:
+    mean: 100
+    deviation: 30
+  errorRate: 0.5
